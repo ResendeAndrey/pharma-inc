@@ -1,0 +1,30 @@
+.buttonView {
+  border-color: var(--blue-800) !important;
+  color: var(--blue-800) !important;
+  font-weight: bold !important;
+  &:hover{
+    color: var(--white) !important;
+    background-color: var(--blue-800) !important;
+  }
+}
+
+.table {
+  min-width: 650px;
+  border: solid 1px var(--blue-300);
+  & th {
+    border: solid 1px var(--blue-300);
+    text-align: center;
+  }
+  & td {
+    border: solid 1px var(--blue-300);
+    text-align: center;
+  }
+  & thead {
+    & th {
+      color: var(--blue-800) !important;
+      font-weight: bold !important;
+      background-color: var(--blue-200);
+    }
+  } 
+  
+}

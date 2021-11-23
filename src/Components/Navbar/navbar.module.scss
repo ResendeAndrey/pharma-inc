@@ -1,0 +1,19 @@
+.toolbar {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+}
+.company {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title {
+  color: var(--blue-800)
+}
+.user {
+  background-color: var(--blue-300);
+  border-radius: 50%;
+}

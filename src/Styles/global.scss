@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #FFF;
+
+  --gray-50: #fbfcfd;
+  --blue-200: #c3cfd9;
+  --blue-300: #a0afbc;
+  --blue-400: #4b5c6b;
+  --blue-800: #293845;
+
+}
+
+body {
+ background: var(--gray-50)
+}
+body, input, textarea, button {
+  font: 500 1rem Inter, sans-serif;
+  color: var(--gray-500)
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+  color: var(--blue-800);
+}
+p {
+  color: var(--blue-400);
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+button {
+  cursor: pointer;
+}
